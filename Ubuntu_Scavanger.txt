@@ -1,0 +1,12 @@
+1. There are 8 files in the /usr/bin directory.
+   /# ls -1 usr | wc -l
+2. Init is using the most memory. 
+   /# top
+3. The default timezone is UTC. 
+   /# date
+4. Number of groups is 52.
+   /# cat /etc/group | wc -l
+5. Output is the Fibonacci Sequence from 0 to 4181.
+   /# apt-get install php5-cli
+   /# wget http://cl.ly/2F0Q1r2y3K0l/362.tar
+   /# php 362.php
